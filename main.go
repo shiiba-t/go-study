@@ -1,8 +1,12 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-func main(){
+	"github.com/shiiba-t/go-study/study"
+)
+
+func main() {
 	fmt.Println("HelloWorld")
+	study.StudyEnum()
 }
-
