@@ -28,8 +28,7 @@ func Comma1() {
 
 // パターン2(型チェック)
 func Comma2() {
-	var test interface{}
-	test = 123
+	var test interface{} = 123
 
 	if t, ok := test.(int); ok {
 		// s=123, ok=true
